@@ -1,0 +1,16 @@
+passo1) cd xampp/htdocs/projetos/cmsavogados/cms_advocacia
+
+passo2) git init (SÓ QUANDO FOR CRIAR REPOSITORIO)
+
+passo3) git clone (SO QUANDO FOR BAIXAR O REPOSITO APOS TER CRIADO-O)
+passo4) git remote add origin linkDoGit (SO QUANDO TIVER PROJETO LOCAL PARA UPAR)
+
+passo5) git status (verificar se tem alguma mudança)
+
+passo6) git add . (adicionar todas as alteracoes no GIT)
+		git add *php (adiciona todos os arquivos de extensao PHP)
+
+passo7) git commit  -m "COMENTARIO SOBRE O COMMIT EM EXECUÇÃO"
+
+passo8) git push origin master (Subir para GIT precisa LOGAR-SE no GIT)
+passo8) git pull origin master (Download atualizações do GIT)

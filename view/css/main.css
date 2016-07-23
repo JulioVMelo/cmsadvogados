@@ -1,0 +1,631 @@
+/*----- CSS Geral -----*/
+
+body{
+    font-family : "Helvetica Neue", sans-serif;
+    color: #fff;
+}
+
+.clear{
+    clear: both;
+}
+.content{
+    width: 96%;
+    margin: 0 auto;
+}
+.fa-facebook:hover{
+    color: #3A5795;
+}
+.fa-twitter:hover{
+    color: #54ABEC;
+}
+.fa-github:hover{
+    color:#4078C0;
+}
+.fa-google-plus:hover{
+    color: #DB4437;
+}
+.fa-instagram:hover{
+    color:#BF8360;
+}
+/*----- Fim CSS Geral -----*/
+
+/*----- Header -----*/
+header{
+    width: 100%;
+    background-color: #586474;
+}
+.btn-logar{
+    float: right;
+    background-color: #f0f8ff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: #2C3E50;
+    font-weight: 700;
+}
+.btn-logar:hover{
+    background-color: #2C3E50;
+    color: #f0f8ff;
+}
+header h1{
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+header .content{
+    padding-left:10px;
+    padding-right: 15px;
+}
+header .menu-mobile{
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 7%;
+    float: right;
+    text-align: right;
+    font-size: 2.6em;
+    cursor: pointer;
+}
+header .menu-mobile:hover{
+    color:#3E4651;
+}
+.menu ul li{
+    font-size: 1em;
+    font-weight: 400;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    border-top: 1px solid #3E4651;
+    border-radius: 5px;
+    }
+
+.menu ul li:nth-of-type(1){
+    border-top: none;
+
+}
+.menu ul li:hover{
+    color: #4D545E;
+    background-color: #fff;
+}
+header .menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+/*----- Fim Header -----*/
+/*----- Banner -----*/
+main{
+    margin-top: 5px;
+}
+.banner .content{
+    height: auto;
+}
+.banner {
+  overflow: hidden;
+
+}
+.banner .content img{
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/*----- Fim Banner -----*/
+/*----- Articles -----*/
+.conteudo .content{
+    width: 92%;
+}
+main .conteudo h2{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #586474;
+    border-top: 4px solid #586474;
+    padding-top: 10px;
+    width: 100%;
+}
+main .conteudo p{
+    text-align: justify;
+    font-size: 1em;
+    padding-top: 30px;
+    color: #000;
+    width: 100%;
+    line-height: 1.6em;
+}
+main .conteudo button{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:30px;
+    background-color: #586474;
+    color: #fff;
+    width: 20%;
+}
+main .conteudo{
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+main .conteudo .fa-balance-scale{
+    margin-right:3% ;
+    color: #586474;
+    font-size: 2em;
+}
+.conteudo .atuacao .fa-plus{
+    cursor: pointer;
+    margin-left: 3%;
+    font-size: 1.3em;
+}
+.conteudo .atuacao p{
+  margin-bottom: 30px;
+  padding-top: 0;
+}
+.atuacao .area{
+    padding-bottom: 20px;
+}
+.atuacao h4{
+  color: #586474;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+.conteudo .atuacao h2{
+  margin-bottom: 20px;
+}
+.desc-civil, .desc-tributario, .desc-eleitoral, .desc-empresarial, .desc-admnistrativo{
+   display: none;
+   text-align: justify;
+}
+
+/*----- Fim Article -----*/
+/*----- Contato -----*/
+.dados{
+    background-color: #586474;
+    color: #fff;
+}
+.contato{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.contato h2{
+    margin-bottom: 20px;
+}
+.contato .number-phone{
+    font-size: 1.3em;
+    padding-bottom: 20px;
+    display: block;
+}
+.contato .number-phone i{
+    margin-right:10px;
+}
+article .social-icons{
+    text-align: center;
+}
+.social-icons i{
+    font-size: 2em;
+    cursor: pointer;
+    margin-right: 5%;
+
+}
+.social-icons i:nth-of-type(3){
+    margin-right: 0;
+    padding-right: 0;
+}
+/*----- Fim Contato -----*/
+/*----- informações -----*/
+.informacoes{
+    background-color: #3E4651;
+    color: #fff;
+}
+
+.orcamento .content{
+    width: 92%;
+    border-top: 3px solid #4D545E;
+    padding-top: 20px;
+}
+.orcamento form label{
+    text-align: center;
+    width: 100%;
+}
+.orcamento .content input{
+    width: 100%;
+    background-color: #3E4651;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 5px 0 5px 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.orcamento .content input[type="submit"]{
+    background-color: #fff;
+    color:   #3E4651;
+    width: 30%;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.orcamento .content input:focus{
+    background-color: #fff;
+    color: #4D545E;
+}
+.orcamento .content input[type="file"]{
+    text-align: left;
+    width: 100%;
+    display: block;
+}
+.orcamento textarea{
+    width: 100%;
+    background-color: #3E4651;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 5px 0 5px 0;
+    resize: none;
+}
+.orcamento textarea:focus{
+    background-color: #fff;
+    color: #4D545E;
+}
+.orcamento h2{
+    text-align: center;
+    font-size: 1.4em;
+}
+.orcamento p{
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+/*----- Fim informações -----*/
+/*----- Rodapé -----*/
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #000;
+}
+footer p{
+    width:100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.dev-icons{
+    width: 100%;
+    text-align: center;
+}
+.dev-icons i{
+    font-size: 1.6em;
+    margin-left: 10px;
+}
+.dev-icons i:nth-of-type(1){
+    margin-left: 0;
+}
+/*----- Fim Rodapé -----*/
+/*----- Equipe -----*/
+.advogado{
+    width: 100%;
+}
+.advogado .content{
+  border-bottom: 2px solid #6C7A89;
+  padding-bottom: 50px;
+  width: 92%;
+}
+.advogado:last-child{
+    border-bottom: none;
+}
+.advogado .img-adv{
+	width: 100%;
+	height: auto;
+    overflow: hidden;
+}
+.advogado img{
+  max-width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.advogado  p{
+  color:#4D545E;
+  text-align: justify;
+  font-size: 1.1em;
+  width: 100%;
+}
+.oab{
+    font-weight: bold;
+}
+.nome{
+    font-weight: bold;
+}
+
+/*----- Fim Equipe -----*/
+/*----- Escritorio -----*/
+.escritorio .content{
+    width: 93%;
+}
+.escritorio .imagem-escritorio{
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.escritorio img{
+  width: 730px;
+  max-width: 100%;
+}
+.sobre p{
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+.escritorio iframe{
+    max-width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.escritorio p{
+    color: #2C3E50;
+    font-size: 1.2em;
+}
+.escritorio h2{
+    border-top: 2px solid #6C7A89;
+    padding-top: 20px;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+.escritorio i{
+    padding-left: 10px;
+}
+.local{
+ margin-bottom: 20px;
+}
+/*----- Fim Escritorio -----*/
+/*----- Responsivo -----*/
+@media screen and (min-width:520px){
+  .advogado .img-adv{
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+  .advogado p{
+    padding-top: 10px;
+    width: 46%;
+    float: left;
+    margin-right: 2%;
+  }
+}
+/*----- 700px -----*/
+@media screen and (min-width:700px) {
+  .equipe {
+      width: 50%;
+      float: left;
+  }
+  .equipe .content{
+      padding-left: 5%;
+  }
+
+  .servicos{
+      float: right;
+      width: 50%;
+  }
+  .servicos .content{
+      padding-right: 5%;
+  }
+
+  .atuacao{
+        width: 100%;
+  }
+  .orcamento form label{
+      width: 100%;
+  }
+  .orcamento .content input{
+      text-align:left;
+      width: 100%;
+  }
+  .campo-email{
+      float: left;
+      width: 48%;
+      margin-right: 2%;
+  }
+  .campo-nome{
+      margin-left: 2%;
+      float:left;
+      width: 48%;
+  }
+  .orcamento .content input[type="submit"]{
+        text-align: center;
+        width: 20%;
+        border-radius: 10px;
+        font-weight: 700;
+
+  }
+  footer p{
+      margin-left: 20px;
+        width:50%;
+        text-align: left;
+        margin-bottom: 0;
+        float: left;
+  }
+  footer .sub{
+      display: none;
+  }
+  footer .dev-icons{
+      text-align: right;
+      padding-right: 20px;
+  }
+}
+/*----- Fim 700px -----*/
+/*----- 890px -----*/
+@media screen and (min-width:890px){
+  .escritorio .imagem-escritorio{
+
+      height: auto;
+      width: 100%;
+      text-align: center;
+
+  }
+
+      .advogado{
+        float: left;
+        width: 40%;
+        margin-left: 7%;
+      }
+      .advogado:nth-of-type(2n+2){
+      margin-left: 5%;
+
+      }
+      .advogado .content{
+        width: 90%;
+        border-bottom: none;
+
+      }
+      .advogado .img-adv{
+        width: 75%;
+        float: none;
+      }
+      .advogado p{
+        width: 100%;
+        float: none;
+      }
+
+      .campo-assunto{
+        width: 100%;
+        float: left;
+      }
+      .campo-assunto input{
+        width: 48%!important;
+      }
+      .campo-assunto label{
+        display:block;
+        text-align: left!important;
+      }
+      .campo-message label{
+        display: block;
+        text-align: left!important;
+      }
+      .campo-message textarea{
+        width: 48%;
+      }
+      .orcamento form>label{
+        display: block;
+        text-align: left;
+
+      }
+      header .logo{
+        width: auto;
+        float: left;
+        margin-top: 10px;
+        font-size: 1.5em;
+      }
+      header{
+        padding-bottom: 20px;
+      }
+      header .menu{
+        float: right;
+        display: block!important;
+        width:auto;
+        clear: none;
+        margin-top: 40px;
+      }
+      .menu ul li{
+        float: left;
+        width: auto;
+        margin-left: 15px;
+        border-top:none;
+        font-size: 1em;
+      }
+      .menu ul li:hover{
+        background-color: inherit;
+        color: #3E4651;
+      }
+      header .menu-mobile{
+        display: none;
+      }
+}
+/*----- Fim 890px -----*/
+/*----- 1200px -----*/
+@media screen and (min-width:1200px){
+  .advogado{
+    float: left;
+    width: 25%;
+    margin-right: 5%;
+  }
+   .advogado:nth-of-type(2n+2){
+   margin-left: 0;
+   margin-right: 5%;
+  }
+
+  .advogado:nth-of-type(3n+3){
+    margin:0;
+  }
+  .advogado .content{
+    width: 90%;
+    border-bottom: none;
+
+  }
+  .advogado .img-adv{
+    width: 75%;
+    float: none;
+  }
+  .advogado p{
+    width: 100%;
+    float: none;
+  }
+
+  .content{
+    width: 80%;
+  }
+  main{
+    padding-top: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .informacoes .contato{
+      width: 80%;
+      margin: 0 auto;
+  }
+  .informacoes .orcamento{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+/*----- Fim 1200px -----*/
+/*----- 1280px -----*/
+@media screen and (min-width:1280px){
+  .content{
+    width: 70%;
+  }
+
+  .atuacao .content{
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+  }
+  .atuacao .content div{
+      display: block;
+      text-align: left;
+      margin-right: 20px;
+      margin-bottom: 50px;
+  }
+  .atuacao .content:nth-of-type(3n+3){
+      margin-right: 0px;
+      float: right;
+  }
+  .fa-plus{
+    display: none;
+  }
+  main{
+    padding-top: 10px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .informacoes .contato{
+      width: 70%;
+      margin: 0 auto;
+  }
+  .informacoes .orcamento{
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+/*----- Fim 1280px -----*/
+
+/*----- Fim Responsivo -----*/
