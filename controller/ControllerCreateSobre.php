@@ -2,10 +2,8 @@
 	require('../util/config.inc.php');
 	require('../model/Dao/Create.class.php');
 
-	if (
-		empty($_POST['sobreTitulo']) ||
-		empty($_POST['sobreDescricao'])
-	) {
+	if (empty($_POST['sobreTitulo']) ||	empty($_POST['sobreDescricao'])
+	){
 		header("Location: ../view/cpadmin/erro.php");
 		die;
 	}else{

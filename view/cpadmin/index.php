@@ -17,7 +17,7 @@
 
 			<div class="blocoSessao">
 				<h4>Advogados</h4>
-				<i class="fa fa-floppy-o"  onclick="location.href='javascript:void(0);'"></i>
+				<i class="fa fa-floppy-o"  onclick="location.href='create-advogados.php'"></i>
 				<i class="fa fa-list-alt" onclick="location.href='javascript:void(0);'"></i>
 			</div>
 
@@ -29,7 +29,7 @@
 
 			<div class="blocoSessao">
 				<h4>Telefones de Contato</h4>
-				<i class="fa fa-floppy-o"  onclick="location.href='javascript:void(0);'"></i>
+				<i class="fa fa-floppy-o"  onclick="location.href='create-contato.php'"></i>
 				<i class="fa fa-list-alt" onclick="location.href='javascript:void(0);'"></i>
 			</div>
 
@@ -40,14 +40,14 @@
 			</div>
 
 			<div class="blocoSessao">
-				<h4>Filial da Empresa</h4>
-				<i class="fa fa-floppy-o"  onclick="location.href='javascript:void(0);'"></i>
+				<h4>Local da Empresa</h4>
+				<i class="fa fa-floppy-o"  onclick="location.href='create-sede.php'"></i>
 				<i class="fa fa-list-alt" onclick="location.href='javascript:void(0);'"></i>
 			</div>
 
 			<div class="blocoSessao">
 				<h4>Sobre Descrição</h4>
-				<i class="fa fa-floppy-o"  onclick="location.href='javascript:void(0);'"></i>
+				<i class="fa fa-floppy-o"  onclick="location.href='create-sobre.php'"></i>
 				<i class="fa fa-list-alt" onclick="location.href='javascript:void(0);'"></i>
 			</div>
 

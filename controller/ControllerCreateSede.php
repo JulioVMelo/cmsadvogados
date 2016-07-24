@@ -2,14 +2,8 @@
   require('../util/config.inc.php');
   require('../model/Dao/Create.class.php');
 
-  if (
-    empty($_POST['SedeRua']) ||
-    empty($_POST['SedeNumero']) ||
-    empty($_POST['SedeBairro'])
-    empty($_POST['SedeComplemento']) ||
-    empty($_POST['SedeCep']) ||
-    empty($_POST['SedeMapa']) ||
-    empty($_POST['SedeImagem'])
+  if (empty($_POST['SedeRua']) || empty($_POST['SedeNumero']) || empty($_POST['SedeBairro']) || empty($_POST['SedeComplemento']) ||
+      empty($_POST['SedeCep']) || empty($_POST['SedeMapa']) || empty($_POST['SedeImagem'])
   ){
     header("Location: ../view/cpadmin/erro.php");
     die;
