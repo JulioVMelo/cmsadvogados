@@ -3,4 +3,4 @@
     require '../../model/Dao/ReadAdmin.php';
 
     $read = new ReadAdmin();
-    $read->listAll('tb_usuario','usuario_id', 'ControllerDeleteUsuario');
+    $read->listAll('tb_usuario','usuario_id', 'ControllerDeleteUsuario','update-usuario');
