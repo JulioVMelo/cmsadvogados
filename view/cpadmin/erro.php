@@ -13,7 +13,7 @@
 
 
 		<div class="index">
-		Deu Ruim parceiro!
+		Ocorreu um ERRO.
 		<span onclick="javascript:window.history.go(-1)"> Voltar para Inicio</span>
 
 		</div>

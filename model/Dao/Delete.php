@@ -10,7 +10,7 @@ class delete extends Conn{
 
 		if($result){
 			echo "<script> alert('Usuário Deletado com Sucesso'); </script>"; 
-			echo "<script> location.href='../view/cpadmin/list-usuario.php'; </script>"; 
+			echo "<script> location.href='javascript:history.back()'; </script>";
 		}else{
 			header("Location: ../view/cpadmin/erro.php");
 		}

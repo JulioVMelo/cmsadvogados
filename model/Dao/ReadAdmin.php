@@ -19,10 +19,7 @@ class readadmin extends Conn{
                 <form action='../../controller/$controllerDelete.php' method='post'>       
                     <button type='submit' name='identificador' value='$identificador'>DELETAR</button>
                 </form>
-                
-                <form action='$controllerUpdate.php' method='post'>       
-                    <button type='submit' name='identificador' value='$identificador'>Atualizar</button>
-                </form>
+                <br>
                 ";
                 echo "<hr>";
             }

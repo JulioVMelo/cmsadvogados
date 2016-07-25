@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93f19df1-dbcf-40a8-8221-141878cd84b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/cpadmin/create-sede.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/cpadmin/list-sobre.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerCreateAdvogados.php" afterPath="$PROJECT_DIR$/controller/ControllerCreateAdvogados.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerCreateAreaAtuacao.php" afterPath="$PROJECT_DIR$/controller/ControllerCreateAreaAtuacao.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerCreateContato.php" afterPath="$PROJECT_DIR$/controller/ControllerCreateContato.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerCreateRedesSociais.php" afterPath="$PROJECT_DIR$/controller/ControllerCreateRedesSociais.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerCreateSede.php" afterPath="$PROJECT_DIR$/controller/ControllerCreateSede.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerCreateSobre.php" afterPath="$PROJECT_DIR$/controller/ControllerCreateSobre.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerCreateUsuario.php" afterPath="$PROJECT_DIR$/controller/ControllerCreateUsuario.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerDeleteAdvogados.php" afterPath="$PROJECT_DIR$/controller/ControllerDeleteAdvogados.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerReadAdvogados.php" afterPath="$PROJECT_DIR$/controller/ControllerReadAdvogados.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerReadAreaAtuacao.php" afterPath="$PROJECT_DIR$/controller/ControllerReadAreaAtuacao.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerReadContato.php" afterPath="$PROJECT_DIR$/controller/ControllerReadContato.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerReadRedesSociais.php" afterPath="$PROJECT_DIR$/controller/ControllerReadRedesSociais.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerReadSede.php" afterPath="$PROJECT_DIR$/controller/ControllerReadSede.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControllerReadSobre.php" afterPath="$PROJECT_DIR$/controller/ControllerReadSobre.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/Dao/Delete.php" afterPath="$PROJECT_DIR$/model/Dao/Delete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/Dao/ReadAdmin.php" afterPath="$PROJECT_DIR$/model/Dao/ReadAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/cpadmin/erro.php" afterPath="$PROJECT_DIR$/view/cpadmin/erro.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/cpadmin/includes/header-top.php" afterPath="$PROJECT_DIR$/view/cpadmin/includes/header-top.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/cpadmin/index.php" afterPath="$PROJECT_DIR$/view/cpadmin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/cpadmin/list-usuario.php" afterPath="$PROJECT_DIR$/view/cpadmin/list-usuario.php" />
     </list>
     <ignored path="cmsadvogados.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,22 +44,82 @@
     <favorites_list name="cmsadvogados" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/cpadmin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+            <state relative-caret-position="750">
+              <caret line="50" column="80" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControllerCreateAreaAtuacao.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/ControllerCreateAreaAtuacao.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header-top.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/cpadmin/includes/header-top.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list-localEmpresa.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/cpadmin/list-localEmpresa.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerReadSede.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/ControllerReadSede.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerReadSobre.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/ControllerReadSobre.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list-sobre.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/cpadmin/list-sobre.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -56,25 +133,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/controller/ControllerCreateContato.php" />
-        <option value="$PROJECT_DIR$/controller/ControllerCreateRedesSociais.php" />
-        <option value="$PROJECT_DIR$/controller/controllerTeste.php" />
-        <option value="$PROJECT_DIR$/controller/ControllerDeleteUsuario2.php" />
-        <option value="$PROJECT_DIR$/controller/ControllerReadUsuario2.php" />
-        <option value="$PROJECT_DIR$/controller/ControllerCreateAdvogados.php" />
-        <option value="$PROJECT_DIR$/controller/ControllerReadContato.php" />
-        <option value="$PROJECT_DIR$/controller/ControllerReadSobre.php" />
-        <option value="$PROJECT_DIR$/controller/ControllerReadAreaAtuacao.php" />
-        <option value="$PROJECT_DIR$/controller/ControllerReadAdvogados.php" />
-        <option value="$PROJECT_DIR$/controller/ControllerReadRedesSociais.php" />
         <option value="$PROJECT_DIR$/controller/ControllerDeleteContato.php" />
         <option value="$PROJECT_DIR$/controller/ControllerDeleteUsuario.php" />
         <option value="$PROJECT_DIR$/controller/ControllerDeleteSobre.php" />
         <option value="$PROJECT_DIR$/model/Dao/delete.php" />
         <option value="$PROJECT_DIR$/controller/ControllerDeleteAdvogado.php" />
-        <option value="$PROJECT_DIR$/controller/ControllerDeleteAdvogados.php" />
         <option value="$PROJECT_DIR$/controller/ControllerDeleteSede.php" />
-        <option value="$PROJECT_DIR$/controller/ControllerReadSede.php" />
         <option value="$PROJECT_DIR$/controller/ControllerDeleteRedesSociais.php" />
         <option value="$PROJECT_DIR$/controller/ControllerDeleteAreaAtuacao.php" />
         <option value="$PROJECT_DIR$/model/Dao/read2.php" />
@@ -84,16 +148,42 @@
         <option value="$PROJECT_DIR$/model/Dao/Update.php" />
         <option value="$PROJECT_DIR$/controller/ControllerUpdateTeste.php" />
         <option value="$PROJECT_DIR$/controller/ControllerUpdateUsuario.php" />
-        <option value="$PROJECT_DIR$/model/Dao/Read.php" />
         <option value="$PROJECT_DIR$/controller/ControllerReadUsuario.php" />
         <option value="$PROJECT_DIR$/util/config.inc.php" />
         <option value="$PROJECT_DIR$/view/cpadmin/create-advogados.php" />
-        <option value="$PROJECT_DIR$/controller/ControllerCreateSobre.php" />
         <option value="$PROJECT_DIR$/view/cpadmin/create-sobre.php" />
         <option value="$PROJECT_DIR$/view/cpadmin/create-contato.php" />
-        <option value="$PROJECT_DIR$/view/cpadmin/index.php" />
-        <option value="$PROJECT_DIR$/controller/ControllerCreateSede.php" />
         <option value="$PROJECT_DIR$/view/cpadmin/create-sede.php" />
+        <option value="$PROJECT_DIR$/view/cpadmin/create-redesSociais.php" />
+        <option value="$PROJECT_DIR$/view/cpadmin/create-areaAtuacao.php" />
+        <option value="$PROJECT_DIR$/view/cpadmin/list-usuario.php" />
+        <option value="$PROJECT_DIR$/view/cpadmin/list-advogados.php" />
+        <option value="$PROJECT_DIR$/model/Dao/Read.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerReadAdvogados.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerDeleteAdvogados.php" />
+        <option value="$PROJECT_DIR$/model/Dao/Delete.php" />
+        <option value="$PROJECT_DIR$/view/cpadmin/create-usuario.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerCreateUsuario.php" />
+        <option value="$PROJECT_DIR$/view/cpadmin/erro.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerCreateAdvogados.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerCreateAreaAtuacao.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerCreateContato.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerCreateRedesSociais.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerCreateSede.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerCreateSobre.php" />
+        <option value="$PROJECT_DIR$/view/cpadmin/list-contato.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerReadContato.php" />
+        <option value="$PROJECT_DIR$/model/Dao/ReadAdmin.php" />
+        <option value="$PROJECT_DIR$/view/cpadmin/list-areaAtuacao.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerReadAreaAtuacao.php" />
+        <option value="$PROJECT_DIR$/view/cpadmin/list-redesSociais.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerReadRedesSociais.php" />
+        <option value="$PROJECT_DIR$/view/cpadmin/list-localEmpresa.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerReadSede.php" />
+        <option value="$PROJECT_DIR$/controller/ControllerReadSobre.php" />
+        <option value="$PROJECT_DIR$/view/cpadmin/list-sobre.php" />
+        <option value="$PROJECT_DIR$/view/cpadmin/index.php" />
+        <option value="$PROJECT_DIR$/view/cpadmin/includes/header-top.php" />
       </list>
     </option>
   </component>
@@ -136,8 +226,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,20 +275,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cmsadvogados" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmsadvogados" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmsadvogados" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -263,18 +339,19 @@
       <workItem from="1469304413343" duration="4805000" />
       <workItem from="1469315131153" duration="583000" />
       <workItem from="1469331360168" duration="1242000" />
-      <workItem from="1469394093959" duration="1791000" />
+      <workItem from="1469394093959" duration="6953000" />
+      <workItem from="1469487238632" duration="2029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37975000" />
+    <option name="totallyTimeSpent" value="45166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1600" height="819" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -311,112 +388,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model/Dao/update2.php" />
-    <entry file="file://$PROJECT_DIR$/model/Dao/Create.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/Conn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="80" selection-start-line="29" selection-start-column="80" selection-end-line="29" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Dao/Read.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerReadSobre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerUpdateUsuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Dao/Update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerReadUsuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Dao/Read.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerReadUsuario2.php" />
-    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateRedesSociais.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Dao/readGeneric.php" />
-    <entry file="file://$PROJECT_DIR$/view/adm.php" />
-    <entry file="file://$PROJECT_DIR$/view/list-usuario.php" />
-    <entry file="file://$PROJECT_DIR$/view/create-usuario.php" />
-    <entry file="file://$PROJECT_DIR$/controller/ControllerReadUsuario2.php" />
     <entry file="file://$PROJECT_DIR$/controller/ControllerDeleteUsuario2.php" />
-    <entry file="file://$PROJECT_DIR$/controller/ControllerReadContato.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerReadAreaAtuacao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerReadAdvogados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateUsuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerDeleteUsuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/ControllerDeleteSobre.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -431,13 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerReadSede.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/ControllerDeleteSede.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -449,27 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerDeleteAreaAtuacao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerDeleteAdvogados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Dao/Delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -495,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerReadUsuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/config.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -513,51 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerReadSobre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Dao/Read.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/cpadmin/create-advogados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/cpadmin/create-usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateAdvogados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateContato.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -566,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,6 +465,235 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/create-sede.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/create-advogados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/create-redesSociais.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/create-areaAtuacao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Dao/Read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding>
+            <marker date="1469408860935" expanded="true" signature="144:158" placeholder="SELECT * fro... ${$tabela}" />
+            <marker date="1469408860935" expanded="true" signature="144:179" placeholder="SELECT * fro... tb_usuario" />
+            <marker date="1469408860935" expanded="true" signature="144:191" placeholder="SELECT * fro... ${$tabela}" />
+            <marker date="1469408860935" expanded="true" signature="178:179" placeholder="SELECT * fro... tb_usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/update-usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerDeleteUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Dao/Delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding>
+            <marker date="1469428105298" expanded="true" signature="160:197" placeholder="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/create-usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerReadUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/erro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateAdvogados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateAreaAtuacao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateContato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateRedesSociais.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateSede.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerDeleteAdvogados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerDeleteAreaAtuacao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerReadContato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/list-contato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/list-advogados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Dao/ReadAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding>
+            <marker date="1469488038654" expanded="true" signature="206:220" placeholder="SELECT * fro... ${$tabela}" />
+            <marker date="1469488038654" expanded="true" signature="633:767" placeholder="..." />
+            <marker date="1469488038654" expanded="true" signature="1041:1078" placeholder="SELECT * fro... ${$tabela}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerReadAdvogados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/list-usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerReadAreaAtuacao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/list-areaAtuacao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateSobre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -586,42 +706,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateSobre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateSede.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/cpadmin/create-sede.php">
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/list-redesSociais.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerReadSede.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControllerReadSobre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/list-localEmpresa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/list-sobre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/cpadmin/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        <state relative-caret-position="750">
+          <caret line="50" column="80" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControllerCreateAreaAtuacao.php">
+    <entry file="file://$PROJECT_DIR$/view/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cpadmin/includes/header-top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

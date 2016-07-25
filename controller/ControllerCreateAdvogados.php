@@ -25,7 +25,7 @@
     $Advogados->ExeCreate('tb_advogados',$Dados);
 
     if($Advogados->getResult()){
-      header("Location: ../view/cpadmin/sucesso.php");
+      header("Location: ../view/cpadmin/index.php");
     }else{
       header("Location: ../view/cpadmin/erro.php");
     }

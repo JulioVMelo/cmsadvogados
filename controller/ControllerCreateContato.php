@@ -22,7 +22,7 @@
 		$Contato->ExeCreate('tb_contato',$Dados);
 
 		if($Contato->getResult()){
-			header("Location: ../view/cpadmin/sucesso.php");
+			header("Location: ../view/cpadmin/index.php");
 		}else{
 			header("Location: ../view/cpadmin/erro.php");
 		}

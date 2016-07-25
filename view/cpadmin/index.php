@@ -18,37 +18,37 @@
 			<div class="blocoSessao">
 				<h4>Advogados</h4>
 				<i class="fa fa-floppy-o"  onclick="location.href='create-advogados.php'"></i>
-				<i class="fa fa-list-alt" onclick="location.href='javascript:void(0);'"></i>
+				<i class="fa fa-list-alt" onclick="location.href='list-advogados.php'"></i>
 			</div>
 
 			<div class="blocoSessao">
 				<h4>Área de Atuação</h4>
-				<i class="fa fa-floppy-o"  onclick="location.href='javascript:void(0);'"></i>
-				<i class="fa fa-list-alt" onclick="location.href='javascript:void(0);'"></i>
+				<i class="fa fa-floppy-o"  onclick="location.href='create-areaAtuacao.php'"></i>
+				<i class="fa fa-list-alt" onclick="location.href='list-areaAtuacao.php'"></i>
 			</div>
 
 			<div class="blocoSessao">
 				<h4>Telefones de Contato</h4>
 				<i class="fa fa-floppy-o"  onclick="location.href='create-contato.php'"></i>
-				<i class="fa fa-list-alt" onclick="location.href='javascript:void(0);'"></i>
+				<i class="fa fa-list-alt" onclick="location.href='list-contato.php'"></i>
 			</div>
 
 			<div class="blocoSessao">
 				<h4>Redes Sociais</h4>
-				<i class="fa fa-floppy-o"  onclick="location.href='javascript:void(0);'"></i>
-				<i class="fa fa-list-alt" onclick="location.href='javascript:void(0);'"></i>
+				<i class="fa fa-floppy-o"  onclick="location.href='create-redesSociais.php'"></i>
+				<i class="fa fa-list-alt" onclick="location.href='list-redesSociais.php'"></i>
 			</div>
 
 			<div class="blocoSessao">
 				<h4>Local da Empresa</h4>
 				<i class="fa fa-floppy-o"  onclick="location.href='create-sede.php'"></i>
-				<i class="fa fa-list-alt" onclick="location.href='javascript:void(0);'"></i>
+				<i class="fa fa-list-alt" onclick="location.href='list-localEmpresa.php'"></i>
 			</div>
 
 			<div class="blocoSessao">
 				<h4>Sobre Descrição</h4>
 				<i class="fa fa-floppy-o"  onclick="location.href='create-sobre.php'"></i>
-				<i class="fa fa-list-alt" onclick="location.href='javascript:void(0);'"></i>
+				<i class="fa fa-list-alt" onclick="location.href='list-sobre.php'"></i>
 			</div>
 
 			<div class="blocoSessao">
