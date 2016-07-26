@@ -17,6 +17,10 @@ class read extends Conn{
             echo "Nenhum Registro Encontrado";
         }
     }
+
+    function VerificaAcesso($login,$senha){
+        $result = parent::getConn()->query("SELECT * from tb_usuario where usuario_login=$login and usuario_senha = $senha");
+    }
     
     
 }

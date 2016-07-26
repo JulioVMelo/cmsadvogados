@@ -11,8 +11,8 @@
     die;
   }else{
     $usuarioNome = addslashes(trim($_POST['usuarioNome']));
-    $usuarioLogin = sha1(md5($_POST['usuarioLogin']));
-    $usuarioSenha = sha1(md5($_POST['usuarioSenha']));
+    $usuarioLogin = ($_POST['usuarioLogin']);
+    $usuarioSenha = ($_POST['usuarioSenha']);
   }
 
   $Usuario = new Create;

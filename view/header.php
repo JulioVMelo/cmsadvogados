@@ -1,5 +1,4 @@
     <header>
-
             <div class="content">
                 <a href="index.php"><h1 class="logo"><img src="assets/Layer1000.png" alt="Advogados e associados"></h1></a>
                 <div class="menu-mobile"><i class="fa fa-bars"></i></div>

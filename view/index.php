@@ -19,11 +19,9 @@
     <![endif]-->
 </head>
 <body>
-    <div class="btn-logar">
-        <a href="login.html">Logar</a>
-    </div>
+
     <?php
-        include 'header.html'
+        include 'header.php'
     ?>
 
     <main>
@@ -124,7 +122,7 @@
         </section>
 
     <?php
-        include 'footer.html';
+        include 'footer.php';
     ?>
 
     </body>

@@ -8,7 +8,7 @@
    </head>
   <body>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
-        <form action="../model/util/log.php" class="login" method="post">
+        <form action="" class="login" method="post">
               <div class="login-header">
                 <h1>Login</h1>
               </div>
